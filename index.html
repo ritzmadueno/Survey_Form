@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>•Gaming Survey Form•</h1>
+    <p id="description">The questions we have provided will help us know which communities we should interact with more!</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Insert Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@gmail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Gaming Community you are a part of?: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="Selecting">Select</option>
+                <option value="Valorant">Valorant</option>
+                <option value="Call Of Duty">Call Of Duty</option>
+                <option value="OverWatch">Overwatch</option>
+                <option value="Minecraft">Minecraft</option>
+                <option value="CSGO">CSGO</option>
+                <option value="League of Legends">L.o.L</option>
+                <option value="Tekken">Tekken</option>
+                <option value="Rocket League">RocketLeague</option>
+                <option value="N/A">N/A</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="gaming-label"><b>Status</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="Deticated" checked> Dedicated Gamer<br>
+            <input type="radio" class="radio-inline" name="gender" value="Fan"> I Just Enjoy Video Games.<br>
+            <input type="radio" class="radio-inline" name="gender" value="Hobbist"> I Rarely Play Video Games<br>
+            <input type="radio" class="radio-inline" name="gender" value="Newbie"> I Don't play video games at all.
+          </div>
+         
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Gaming Communities you are interested in: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="Selecting">Select</option>
+                <option value="Valorant">Valorant</option>
+                <option value="Call Of Duty">Call Of Duty</option>
+                <option value="Overwatch">Overwatch</option>
+                <option value="Minecraft">Minecraft</option>
+                <option value="CSGO">CSGO</option>
+                <option value="LOL">League of Legends</option>
+                <option value="Tekken"> Tekken</option>
+                <option value="RocketL">RocketLeague</option>
+                <option value="N/A">N/A</option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Rate Your Experince here:</b></label><br>
+            <input type="checkbox" name="t1" value="VG"> Very Satisfied<br>
+            <input type="checkbox" name="t2" value="G">  Satisfied<br>
+            <input type="checkbox" name="t3" value="N">  Neutral<br>
+            <input type="checkbox" name="t3" value="NG"> Not So Good<br>
+            <input type="checkbox" name="t3" value="EW">  Not Satisfied at all<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Leave A Review!</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
